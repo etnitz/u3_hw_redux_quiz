@@ -11,43 +11,48 @@
 1. What is Redux?
 
 ```
-Answer Here
+It is a standalone library that can be used with any UI layer. It is a predictable state container for JS Apps
 ```
 
 2. What packages do we install to use Redux?
 
 ```
-Answer Here
+redux and react-redux
 ```
 
 3. In your own words, describe the flow of how Redux is used to manage state.
 
 ```
-Answer Here
+You got the store with reudcers, then combine the reducers, then you update states for react components, then dispatch an action for the reducers
 ```
 
 4. What do we use in order to manage different pieces of state?
 
 ```
-Answer Here
+Reducers
 ```
 
 5. What do we use to perform an update to state?
 
 ```
-Answer Here
+Components from react
 ```
 
 6. How do we access state from Redux?
 
 ```
-Answer Here
+props.todoState
 ```
 
 7. In your own words, describe how to set up Redux for a React App.
 
 ```
-Answer Here
+
+first npm install react redux react-redux
+
+second create store directory with an actions directory and reducers directory
+
+third wrap <App/> in idex.js with provider with store = {store} and import store from store directory and import provider from react-redux
 ```
 
 ## Submission
